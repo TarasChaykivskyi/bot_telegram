@@ -1,0 +1,26 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.btn-delete {
+  width: 25px;
+  height: 25px;
+
+  span {
+    font-size: 20px;
+    line-height: 0;
+    position: relative;
+    top: -6px;
+    left: -6px;
+  }
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, .5);
+
+  &.show {
+    display: block;
+  }
+}
+
+textarea {
+  resize: none;
+}
